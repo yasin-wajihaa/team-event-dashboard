@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Team Event Manager</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+
+        <h1>Team Event Manager</h1>
+
+        <form id="eventForm">
+            <input type="text" id="title" placeholder="Event Title" required>
+            <input type="date" id="date" required>
+            <textarea id="desc" placeholder="Description"></textarea>
+            <button type="submit">Add Event</button>
+        </form>
+
+        <h2>Upcoming Events</h2>
+        <ul id="eventList"></ul>
+
+        <h2>Completed Events</h2>
+        <ul id="completedList"></ul>
+
+        <script src="script.js"></script>
+    </body>
