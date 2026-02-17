@@ -4,15 +4,27 @@
     box-sizing: border-box;
 }
 
+
+/* Default light theme */
 body {
     background: rgb(253, 238, 202);
+    color: black;
+    transition: 0.5s;
+
     font-family: Arial, sans-serif;
     max-width: 600px;
     margin: auto;
     padding: 20px;
 }
 
-form{
+ /* Dark Theme */
+ body.dark {
+    background: black;
+    color: white;
+    transition: 0.5s;
+ }
+
+form {
     display: flex;
     flex-direction: column;
     gap: 10px;
